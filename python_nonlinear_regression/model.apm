@@ -1,0 +1,13 @@
+Parameters
+  a
+  b
+  c
+  xm
+  ym
+
+Variables
+  y
+  
+Equations
+  y = a + b/xm + c*log(xm)
+  minimize ((ym-y)/ym)^2
